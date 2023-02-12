@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 
 * {
   padding: 0;
@@ -7,7 +6,7 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Poppins', sans-serif;
 }
 body {
   background-color: rgb(25, 25, 25);
@@ -32,7 +31,7 @@ body {
 }
 .navigation nav .brand {
   color: rgb(255, 255, 255);
-  font-size: 24px;
+  font-size: 30px;
   font-weight: bold;
   text-transform: uppercase;
   margin-left: 200px;
@@ -66,23 +65,19 @@ body {
 }
 .hero .content .text .first {
   color: rgb(255, 255, 255);
-  font-family: 'Poppins', sans-serif;
   font-size: 34px;
 }
 .hero .content .text .second {
   color: rgba(255, 255, 255, 0.5);
-  font-family: 'Poppins', sans-serif;
   font-size: 28px;
 }
 .hero .content .text .third {
   color: rgb(255, 255, 255);
-  font-family: 'Poppins', sans-serif;
   font-size: 18px;
   margin-top: 20px;
 }
 .hero .content .text .fourth {
   color: rgb(255, 255, 255);
-  font-family: 'Poppins', sans-serif;
   font-size: 18px;
 }
 
@@ -106,7 +101,7 @@ body {
   }
   .navigation nav .brand {
     color: rgb(255, 255, 255);
-    font-size: 24px;
+    font-size: 30px;
     font-weight: bold;
     text-transform: uppercase;
     margin-left: 20px;
@@ -141,23 +136,19 @@ body {
   }
   .hero .content .text .first {
     color: rgb(255, 255, 255);
-    font-family: 'Poppins', sans-serif;
     font-size: 30px;
   }
   .hero .content .text .second {
     color: rgba(255, 255, 255, 0.5);
-    font-family: 'Poppins', sans-serif;
     font-size: 24px;
   }
   .hero .content .text .third {
     color: rgb(255, 255, 255);
-    font-family: 'Poppins', sans-serif;
     font-size: 15px;
     margin-top: 10px;
   }
   .hero .content .text .fourth {
     color: rgb(255, 255, 255);
-    font-family: 'Poppins', sans-serif;
     font-size: 15px;
   }
 }
