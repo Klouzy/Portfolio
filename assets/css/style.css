@@ -83,6 +83,63 @@ body {
 
 
 
+.buttons {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.buttons a {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+.buttons .one {
+  background-color: rgb(120, 50, 255);
+  border: 2px solid rgb(120, 50, 255);
+  border-radius: 40px;
+  padding: 10px 20px;
+  transition: 0.2s;
+}
+.buttons .one:hover {
+  background-color: transparent;
+  border: 2px solid rgb(120, 50, 255);
+}
+.buttons .two {
+  background-color: transparent;
+  border: 2px solid rgb(120, 50, 255);
+  border-radius: 40px;
+  padding: 10px 20px;
+  transition: 0.2s;
+}
+.buttons .two:hover {
+  background-color: rgb(120, 50, 255);
+  border: 2px solid rgb(120, 50, 255);
+}
+
+
+
+.footer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.footer p {
+  color: rgb(255, 255, 255);
+}
+.footer a {
+  color: rgb(255, 255, 255);
+  transition: 0.2s;
+}
+.footer a:hover {
+  color: rgb(120, 50, 255);
+}
+
+
+
 @media screen and (max-width: 600px) {
   .navigation {
     position: relative;
@@ -150,6 +207,31 @@ body {
   .hero .content .text .fourth {
     color: rgb(255, 255, 255);
     font-size: 15px;
+  }
+
+
+
+  .buttons {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .buttons a {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+  }
+
+
+
+  .footer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
   }
 }
 
